@@ -18,4 +18,6 @@ from kindergarten import views
 
 urlpatterns = [
     url(r'^hello/', views.hello, name='hello'),
+    url(r'^start/', views.create, name='create'),
+    url(r'^verify/', views.verify, name='verify'),
 ]
